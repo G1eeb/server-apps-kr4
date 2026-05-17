@@ -1,0 +1,35 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Alembic
+alembic/__pycache__/
+.alembic_version
+
+# Переменные окружения
+.env
+
+# Тесты
+.pytest_cache/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
